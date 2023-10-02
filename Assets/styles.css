@@ -237,3 +237,45 @@ footer {
 footer p {
     font-size: 0.5rem;
 }
+
+.about {
+    top: 85px;
+    position: relative;
+}
+
+.description {
+    background-image: url("./images/ksenia-yakovleva-SzwyWBHwLMk-unsplash.jpg");
+}
+
+.description div,
+.mission div {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: hsla(60, 100%, 30%, 0.5);
+    margin: 30px;
+    line-height: 1.6;
+}
+
+.description h1,
+.mission h1 {
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.mission {
+    background-image: url("./images/shane-rounce-DNkoNXQti3c-unsplash.jpg");
+    height: 1000px;
+}
+
+.mission li {
+    padding: 10px;
+    font-style: italic;
+}
+
+li span {
+    font-weight: 700;
+    font-style: normal;
+}
